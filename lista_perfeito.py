@@ -9,7 +9,6 @@ def eh_perfeito(n):
         soma_divs = 0
         for div in range(1, n):
             if n % div == 0:
-                print(div)
                 soma_divs = soma_divs + div
         if soma_divs == n:
             return True
