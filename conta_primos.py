@@ -1,3 +1,11 @@
+'''
+Criar função que conta a quantidade de primos em uma sequẽncia
+Recebe uma sequência de números naturais s e retorna
+um dicionário com a contagem de ocorrências de cada número
+primo da sequência. Números não primos devem ser ignorados.
+Os números da sequência serão sempre maiores ou iguais a 2.
+'''
+
 def eh_primo(n):
 
     divs = 0
